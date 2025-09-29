@@ -1,0 +1,21 @@
+```gitignore
+# Docker data volumes
+data/
+
+# Log files
+*.log
+
+# Environment files
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Temporary files
+tmp/
+temp/

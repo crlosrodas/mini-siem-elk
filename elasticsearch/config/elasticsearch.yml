@@ -1,0 +1,19 @@
+# Network
+network.host: 0.0.0.0
+
+# Cluster
+cluster.name: "mini-siem-cluster"
+node.name: "siem-node-1"
+
+# Security (disabled for development)
+xpack.security.enabled: false
+xpack.security.enrollment.enabled: false
+
+# Monitoring
+xpack.monitoring.collection.enabled: true
+
+# Memory settings
+bootstrap.memory_lock: true
+
+# Discovery for single node
+discovery.type: single-node
